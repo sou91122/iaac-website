@@ -1,0 +1,200 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #menu-sec .navbar .navbar-nav {
+        margin: auto;
+    }
+    
+  
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
+/* Extra large devices (large desktops, 1300px and up) */
+@media (min-width: 1300px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #newsletter .subscribe-text h2 {
+        font-size: 28px;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    header ul.site-logo li img {
+        height: 50px;
+    }
+    .navbar-light .navbar-toggler{
+        padding: 10px;
+        border: 1px solid #3f5b96;
+    }
+    #menu-sec .navbar .navbar-brand img {
+        width: 126px;
+    }
+    #menu-sec .navbar .navbar-nav {
+        flex-wrap: nowrap;
+        justify-content: flex-start !important;
+        flex-direction: column;
+        max-height: 350px;
+        overflow: auto;
+    }
+
+    #menu-sec .navbar .navbar-toggler {
+        padding: 10px;
+        border: 1px solid #3f5b96;
+    }
+    #main-slider .item .slider-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 90%;
+    }
+    #newsletter .subscribe-text {
+        margin-bottom: 15px;
+    }
+    #newsletter .subscribe-wrapper {
+        margin-top: 5px;
+    }
+    .patroncard {
+        min-height: auto;
+    }
+    .sponsorbenefittabsec .membershiptabcontent{
+        margin-top: 70px;
+    }
+    .subbanner img{
+        object-fit: cover;
+    }
+     .galleryimg{
+        height:130px;
+    }
+    .volunteerdonatediv{
+    padding: 40px 25px;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    header {
+        padding: 12px 25px;
+    }
+    #menu-sec .navbar{
+        padding: 12px;
+    }
+    header ul.search-main {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #main-slider .item img {
+        width: 100%;
+        max-height: 370px;
+        min-height: 350px;
+        object-fit: cover;
+    }
+    #main-slider .item .slider-info p {
+        color: #f7f7f9;
+        line-height: 23px;
+        font-size: 15px;
+    }
+    #main-slider .item .slider-info h2{
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .under-line h2 {
+        font-size: 31px;
+        line-height: 35px;
+        padding-bottom: 19px;
+    }
+    #about-area .image-area img {
+        height: auto;
+    }
+    #newsletter .subscribe-wrapper .subscribe-form input {
+        padding-left: 12px;
+        font-size: 12px;
+        width: 55%;
+    }
+    #newsletter .subscribe-wrapper .subscribe-form button {
+        padding: 14px 25px 18px 25px;
+    }
+    #about-area .content-area li{
+        line-height: 25px;
+    }
+
+    .visionmisionpart{
+        margin-top:60px;
+    }
+    .partner-listed .owl-nav .owl-next{
+        right: 0;
+    }
+    .partner-listed .owl-nav .owl-prev{
+        left: 0;
+    }
+    .recenrpostcard{
+        margin-top: 20px;
+    }
+    .sponsordetailsimgpart{
+        margin: 0 15px;
+        height: 250px;
+    }
+    .sponsorbenefittabsec .nav-tabs{
+    display: inline-block;
+    border-bottom: none;
+    }
+    .galleryimg{
+        height: auto;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+.window_loadpopup .modal-dialog{
+    width: 100%;
+    margin: 50px 0 20px 0;
+}
+ .window_loadpopup .modal{
+   padding: 10px!important;
+    }
+    /*windowload-popup*/
+ .window_loadpopup .modal .close {
+    top: -15px;
+    right: -10px;
+ }
+ .patronslist .owl-nav .owl-prev{
+    left: 0;
+ }
+ .patronslist .owl-nav .owl-next{
+    right: 0;
+ }
+
+    /*windowload-popup*/
+}
+@media(max-width: 480px) {
+.comitememeber-img{
+        top: -5%;
+    left: 4%;
+}
+.comitetext{
+    margin-top: 80px;
+    padding-left: 0;
+}
+.comittecard{
+    margin-top: 50px;
+}
+}
+
